@@ -15,8 +15,9 @@ const initialState = {
     ]
 };
 
-export const reducer = (state = initial, action) => {
-    return {
-    title: 'Hello world! I\'m in the Redux store!',
-  }
+export const reducer = (state = initialState, action) => {
+    switch(action.type) {
+        default: 
+            return state;
+    }
 }
