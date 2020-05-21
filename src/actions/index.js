@@ -10,6 +10,7 @@ export const addFeature = (newFeature) => {
 }
 
 export const removeFeature = (feature) => {
+    console.log(feature);
     return {
         type: REMOVE_FEATURE,
         payload: feature
